@@ -1,0 +1,78 @@
+# depslib dependency file v1.0
+1652240680 source:c:\dev\animate\vector3.c
+	"vector3.h"
+	<math.h>
+
+1651578193 c:\dev\animate\vector3.h
+
+1652274349 source:c:\dev\animate\main.c
+	<stdio.h>
+	"model.h"
+
+1647346056 c:\dev\animate\include\gl\freeglut.h
+	"freeglut_std.h"
+	"freeglut_ext.h"
+
+1647346056 c:\dev\animate\include\gl\freeglut_std.h
+	<windows.h>
+	<EGL/egl.h>
+	<GLES/gl.h>
+	<GLES2/gl2.h>
+	<OpenGL/gl.h>
+	<OpenGL/glu.h>
+	<GL/gl.h>
+	<GL/glu.h>
+	<stdlib.h>
+
+1647346056 c:\dev\animate\include\gl\freeglut_ext.h
+	<stdarg.h>
+
+1651286850 c:\dev\animate\camera.h
+	<GL/freeglut.h>
+	<math.h>
+	"vector3.h"
+	"utility.h"
+
+1651982915 c:\dev\animate\utility.h
+
+1651397045 c:\dev\animate\collision.h
+	"vector3.h"
+	<stdio.h>
+	<stdlib.h>
+
+1651582805 source:c:\dev\animate\object.c
+	"object.h"
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+
+1651582777 c:\dev\animate\object.h
+	"vector3.h"
+
+1652096226 source:c:\dev\animate\collider.c
+	"collider.h"
+	"utility.h"
+	<stdlib.h>
+
+1652094072 c:\dev\animate\collider.h
+	"vector3.h"
+	"transform.h"
+
+1652274374 source:c:\dev\animate\model.c
+	"model.h"
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	<GL/freeglut.h>
+
+1652274076 c:\dev\animate\model.h
+	"vector3.h"
+	"transform.h"
+
+1651747872 source:c:\dev\animate\utility.c
+	"utility.h"
+	<math.h>
+
+1651889228 c:\dev\animate\transform.h
+	"vector3.h"
+
