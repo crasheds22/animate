@@ -42,7 +42,14 @@
 		</Build>
 		<Compiler>
 			<Add option="-Wall" />
+			<Add directory="include" />
 		</Compiler>
+		<Linker>
+			<Add library="freeglut" />
+			<Add library="glu32" />
+			<Add library="opengl32" />
+			<Add directory="lib/x64" />
+		</Linker>
 		<Unit filename="collider.c">
 			<Option compilerVar="CC" />
 		</Unit>
@@ -54,6 +61,10 @@
 			<Option compilerVar="CC" />
 		</Unit>
 		<Unit filename="model.h" />
+		<Unit filename="physics.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="physics.h" />
 		<Unit filename="transform.h" />
 		<Unit filename="utility.c">
 			<Option compilerVar="CC" />

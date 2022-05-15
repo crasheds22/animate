@@ -5,7 +5,7 @@
 
 1651578193 c:\dev\animate\vector3.h
 
-1652274349 source:c:\dev\animate\main.c
+1652355297 source:c:\dev\animate\main.c
 	<stdio.h>
 	"model.h"
 
@@ -54,18 +54,18 @@
 	"utility.h"
 	<stdlib.h>
 
-1652094072 c:\dev\animate\collider.h
+1652358261 c:\dev\animate\collider.h
 	"vector3.h"
 	"transform.h"
 
-1652274374 source:c:\dev\animate\model.c
+1652356877 source:c:\dev\animate\model.c
 	"model.h"
 	<stdio.h>
 	<stdlib.h>
 	<string.h>
 	<GL/freeglut.h>
 
-1652274076 c:\dev\animate\model.h
+1652356919 c:\dev\animate\model.h
 	"vector3.h"
 	"transform.h"
 
